@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+customtkinter = "*"
+tkintermapview = "*"
+geocoder = "*"
+pandas = "*"
+openai = "*"
+requests = "*"
+pymongo = "*"
+scrapy = "*"
+bs4 = "*"
+selenium = "*"
+loguru = "*"
+sqlalchemy = "*"
+python-dotenv = "*"
+qrcode = "*"
+aiohttp = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

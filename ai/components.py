@@ -11,7 +11,7 @@ def complete_text(
     frequency_penalty:int = 0,
     presence_penalty:int = 0
     ):
-    
+
     """The prompt is the most important input."""
 
     response = openai.Completion.create(
@@ -46,3 +46,11 @@ def generate_image(prompt:str, size:str = "256x256", num:int = 1):
             image_url = response['data'][i]['url']
             data[response['data']]
 
+
+def get_tweet_analysis(response):
+    """
+    :param response: This will be the twitter responses that are
+    sent back to the company.
+    """
+
+    pass
